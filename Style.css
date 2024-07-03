@@ -1,0 +1,55 @@
+.custom-input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.custom-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.custom-table {
+    width: 100%;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-table th, .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#flag img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-table {
+    background-image: linear-gradient(to right, #ffffff, #fafafa);
+    border: 1px solid #ffffff;
+}
+
+.table-striped-columns tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 235, 204, 0.8);
+}
+
+.table-striped-columns tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 204, 153, 0.8);
+}
